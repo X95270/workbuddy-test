@@ -9,9 +9,11 @@
 | 创建仓库 | 浏览器新建 | 完成 |
 | 创建分支 | `create_branch` | 完成 |
 | 推送文件 | `create_or_update_file` | 完成 |
-| 创建 Issue | `issue_write` | 完成（#1） |
-| 创建 Pull Request | `create_pull_request` | 进行中 |
-| 合并 Pull Request | `merge_pull_request` | 进行中 |
+| 创建 Issue | `issue_write` | 完成（#1，已关闭） |
+| 创建 Pull Request | `create_pull_request` | 完成（#2） |
+| 合并 Pull Request | `merge_pull_request` | 完成（squash） |
+
+**结论：GitHub MCP 读写链路全部验证通过。**
 
 ## 连接信息
 
